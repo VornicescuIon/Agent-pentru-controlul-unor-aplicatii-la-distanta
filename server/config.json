@@ -1,0 +1,16 @@
+{
+  "apps": {
+    "web_server": {
+      "start": "echo 'Web Server starting on port 8080...'",
+      "stop": "echo 'Web Server stopped.'",
+      "restart": "echo 'Web Server restarting...'",
+      "status": "echo 'Web Server is running (PID 1234)'"
+    },
+    "database": {
+      "start": "echo 'Database engine starting...'",
+      "stop": "echo 'Database engine stopped safely.'",
+      "status": "echo 'Database engine is active.'",
+      "backup": "echo 'Database backup completed.' && sleep 2"
+    }
+  }
+}
